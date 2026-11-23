@@ -1,0 +1,520 @@
+{
+ "angle": [
+  "angle(1+@i)"
+ ],
+ "ceiling": [
+  "ceiling(2.1)"
+ ],
+ "comDenom": [
+  "comDenom(1/x+1/y)"
+ ],
+ "conj": [
+  "conj(3+4@i)"
+ ],
+ "cosh⁻¹": [
+  "cosh⁻¹(1)"
+ ],
+ "cos⁻¹": [
+  "cos⁻¹(1)"
+ ],
+ "cot": [
+  "cot(π/4)"
+ ],
+ "coth": [
+  "coth(1.)"
+ ],
+ "coth⁻¹": [
+  "coth⁻¹(2.)"
+ ],
+ "cot⁻¹": [
+  "cot⁻¹(1)"
+ ],
+ "csc": [
+  "csc(π/2)"
+ ],
+ "csch": [
+  "csch(1.)"
+ ],
+ "csch⁻¹": [
+  "csch⁻¹(1.)"
+ ],
+ "csc⁻¹": [
+  "csc⁻¹(1)"
+ ],
+ "floor": [
+  "floor(2.9)"
+ ],
+ "fPart": [
+  "fPart(2.75)"
+ ],
+ "gcd": [
+  "gcd(12,18)"
+ ],
+ "imag": [
+  "imag(3+4@i)"
+ ],
+ "iPart": [
+  "iPart(2.75)"
+ ],
+ "lcm": [
+  "lcm(4,6)"
+ ],
+ "mod": [
+  "mod(17,5)"
+ ],
+ "nPr": [
+  "nPr(5,2)"
+ ],
+ "propFrac": [
+  "propFrac(7/3)"
+ ],
+ "real": [
+  "real(3+4@i)"
+ ],
+ "remain": [
+  "remain(17,5)"
+ ],
+ "root": [
+  "root(8,3)"
+ ],
+ "round": [
+  "round(3.14159,2)"
+ ],
+ "sech": [
+  "sech(0)"
+ ],
+ "sech⁻¹": [
+  "sech⁻¹(1)"
+ ],
+ "sec⁻¹": [
+  "sec⁻¹(1)"
+ ],
+ "sign": [
+  "sign(-3)"
+ ],
+ "sinh": [
+  "sinh(0)"
+ ],
+ "sinh⁻¹": [
+  "sinh⁻¹(0)"
+ ],
+ "tan": [
+  "tan(π/4)"
+ ],
+ "tanh": [
+  "tanh(0)"
+ ],
+ "tanh⁻¹": [
+  "tanh⁻¹(0)"
+ ],
+ "tan⁻¹": [
+  "tan⁻¹(1)"
+ ],
+ "tCollect": [
+  "tCollect(sin(x)*cos(x))"
+ ],
+ "tExpand": [
+  "tExpand(sin(2x))"
+ ],
+ "dominantTerm": [
+  "dominantTerm(x^3+x,x,∞)"
+ ],
+ "ifFn": [
+  "ifFn(2>1,10,20)"
+ ],
+ "normalLine": [
+  "normalLine(x^2,x,1)"
+ ],
+ "piecewise": [
+  "piecewise(x^2,x<0,x,x≥0)|x=2"
+ ],
+ "rk23": [
+  "rk23(y,t,y,{0,1},1,0.5)"
+ ],
+ "series": [
+  "series(sin(x),x,3)"
+ ],
+ "system": [
+  "system(x+y=2,x-y=0)"
+ ],
+ "when": [
+  "when(2>1,10,20)"
+ ],
+ "P►Ry": [
+  "P►Ry(2,π/2)"
+ ],
+ "R►Pr": [
+  "R►Pr(3,4)"
+ ],
+ "warnCodes": [
+  "warnCodes(1+1,w)"
+ ],
+ "count": [
+  "count(2,{1,3},5)"
+ ],
+ "delVoid": [
+  "delVoid({1,_,3})"
+ ],
+ "exp►list": [
+  "exp►list(x=1 or x=2,x)"
+ ],
+ "Fill": [
+  "l:={1,2,3}",
+  "Fill 7,l",
+  "l"
+ ],
+ "isVoid": [
+  "isVoid({1,_,3})"
+ ],
+ "seqn": [
+  "seqn(2u(n-1),{1},5)"
+ ],
+ "SortA": [
+  "l:={3,1,2}",
+  "SortA l",
+  "l"
+ ],
+ "SortD": [
+  "l:={3,1,2}",
+  "SortD l",
+  "l"
+ ],
+ "colDim": [
+  "colDim([1,2,3;4,5,6])"
+ ],
+ "colNorm": [
+  "colNorm([1,-2;3,4])"
+ ],
+ "corrMat": [
+  "a:={1,2,3,4,5,6}",
+  "b:={2.1,3.9,6.2,7.8,10.1,12.2}",
+  "corrMat(a,b)"
+ ],
+ "eigVc": [
+  "m:=[4,3;6,3]",
+  "eigVc(m)"
+ ],
+ "LU": [
+  "m:=[4,3;6,3]",
+  "LU m,l1,u1,p1",
+  "u1"
+ ],
+ "mRow": [
+  "mRow(2,[1,2;3,4],1)"
+ ],
+ "mRowAdd": [
+  "mRowAdd(2,[1,2;3,4],1,2)"
+ ],
+ "newMat": [
+  "newMat(2,2)"
+ ],
+ "norm": [
+  "norm([3,4])"
+ ],
+ "QR": [
+  "m:=[4,3;6,3]",
+  "QR m,q1,r1",
+  "r1"
+ ],
+ "ref": [
+  "ref([1,2;3,4])"
+ ],
+ "rowAdd": [
+  "rowAdd([1,2;3,4],1,2)"
+ ],
+ "rowDim": [
+  "rowDim([1,2,3;4,5,6])"
+ ],
+ "rowNorm": [
+  "rowNorm([1,-2;3,4])"
+ ],
+ "unitV": [
+  "unitV([3,4])"
+ ],
+ "geomCdf": [
+  "geomCdf(0.5,1,3)"
+ ],
+ "geomPdf": [
+  "geomPdf(0.5,2)"
+ ],
+ "max": [
+  "max({1,5,3})"
+ ],
+ "min": [
+  "min({1,5,3})"
+ ],
+ "product": [
+  "product({1,2,3,4})"
+ ],
+ "sum": [
+  "sum({1,2,3})"
+ ],
+ "varPop": [
+  "varPop({1,2,3,4})"
+ ],
+ "varSamp": [
+  "varSamp({1,2,3,4})"
+ ],
+ "χ²Pdf": [
+  "χ²Pdf(2,3)"
+ ],
+ "FiveNumSummary": [
+  "a:={1,2,3,4,5,6}",
+  "FiveNumSummary a",
+  "stat.MedianX"
+ ],
+ "FTest_2Samp": [
+  "a:={1,2,3,4,5,6}",
+  "b:={2.1,3.9,6.2,7.8,10.1,12.2}",
+  "FTest_2Samp a,b",
+  "stat.F"
+ ],
+ "invBinomN": [
+  "invBinomN(0.1,0.5,2)"
+ ],
+ "LinRegtIntervals": [
+  "a:={1,2,3,4,5,6}",
+  "b:={2.1,3.9,6.2,7.8,10.1,12.2}",
+  "LinRegtIntervals a,b",
+  "stat.b"
+ ],
+ "tInterval_2Samp": [
+  "a:={1,2,3,4,5,6}",
+  "b:={2.1,3.9,6.2,7.8,10.1,12.2}",
+  "tInterval_2Samp a,b",
+  "stat.CLower"
+ ],
+ "tTest_2Samp": [
+  "a:={1,2,3,4,5,6}",
+  "b:={2.1,3.9,6.2,7.8,10.1,12.2}",
+  "tTest_2Samp a,b",
+  "stat.t"
+ ],
+ "TwoVar": [
+  "a:={1,2,3,4,5,6}",
+  "b:={2.1,3.9,6.2,7.8,10.1,12.2}",
+  "TwoVar a,b",
+  "stat.r"
+ ],
+ "zInterval_2Prop": [
+  "zInterval_2Prop 40,100,30,100"
+ ],
+ "zInterval_2Samp": [
+  "a:={1,2,3,4,5,6}",
+  "b:={2.1,3.9,6.2,7.8,10.1,12.2}",
+  "zInterval_2Samp 2,3,a,b",
+  "stat.CLower"
+ ],
+ "zTest_2Prop": [
+  "zTest_2Prop 40,100,30,100",
+  "stat.z"
+ ],
+ "zTest_2Samp": [
+  "a:={1,2,3,4,5,6}",
+  "b:={2.1,3.9,6.2,7.8,10.1,12.2}",
+  "zTest_2Samp 2,3,a,b",
+  "stat.z"
+ ],
+ "LinRegBx": [
+  "a:={1,2,3,4,5,6}",
+  "b:={2.1,3.9,6.2,7.8,10.1,12.2}",
+  "LinRegBx a,b",
+  "stat.b"
+ ],
+ "LnReg": [
+  "a:={1,2,3,4,5,6}",
+  "b:={2.1,3.9,6.2,7.8,10.1,12.2}",
+  "LnReg a,b",
+  "stat.b"
+ ],
+ "Logistic": [
+  "a:={1,2,3,4,5,6}",
+  "b:={2.1,3.9,6.2,7.8,10.1,12.2}",
+  "Logistic a,b",
+  "stat.c"
+ ],
+ "LogisticD": [
+  "a:={1,2,3,4,5,6}",
+  "b:={2.1,3.9,6.2,7.8,10.1,12.2}",
+  "LogisticD a,b",
+  "stat.c"
+ ],
+ "MultReg": [
+  "y1:={1,3,4,7,8,12}",
+  "x1:={1,2,3,4,5,6}",
+  "x2:={2,1,4,3,6,5}",
+  "MultReg y1,x1,x2",
+  "stat.b1"
+ ],
+ "QuartReg": [
+  "a:={1,2,3,4,5,6}",
+  "b:={2.1,3.9,6.2,7.8,10.1,12.2}",
+  "QuartReg a,b",
+  "stat.RegEqn(2)"
+ ],
+ "SinReg": [
+  "t1:={0,1,2,3,4,5,6,7}",
+  "s1:={0,.84,.91,.14,-.76,-.96,-.28,.66}",
+  "SinReg t1,s1",
+  "stat.b"
+ ],
+ "mirr": [
+  "mirr(5,10,-1000,{400,500,600})"
+ ],
+ "ΣInt": [
+  "ΣInt(1,12,60,5,10000,-188.71,12,12)"
+ ],
+ "ΣPrn": [
+  "ΣPrn(1,12,60,5,10000,-188.71,12,12)"
+ ],
+ "rand": [
+  "RandSeed 1",
+  "rand()"
+ ],
+ "randBin": [
+  "RandSeed 1",
+  "randBin(10,0.5)"
+ ],
+ "randInt": [
+  "RandSeed 1",
+  "randInt(1,6)"
+ ],
+ "randMat": [
+  "RandSeed 1",
+  "randMat(2,2)"
+ ],
+ "randNorm": [
+  "RandSeed 1",
+  "randNorm(0,1)"
+ ],
+ "randPoly": [
+  "RandSeed 1",
+  "randPoly(x,2)"
+ ],
+ "randSamp": [
+  "RandSeed 1",
+  "randSamp({1,2,3},2)"
+ ],
+ "RandSeed": [
+  "RandSeed 1"
+ ],
+ "ΔtmpCnv": [
+  "ΔtmpCnv(10_°C,_°F)"
+ ],
+ "ClearAZ": [
+  "a:=1",
+  "ClearAZ",
+  "a"
+ ],
+ "DispAt": [
+  "DispAt 1,\"Hi\""
+ ],
+ "getLangInfo": [
+  "getLangInfo()"
+ ],
+ "getLockInfo": [
+  "a:=1",
+  "getLockInfo(a)"
+ ],
+ "getPlatform": [
+  "getPlatform()"
+ ],
+ "getVarInfo": [
+  "a:=1",
+  "getVarInfo()"
+ ],
+ "getKey": [
+  "getKey()"
+ ],
+ "libShortcut": [
+  "libShortcut(\"nolib\",\"n\")"
+ ],
+ "Lock": [
+  "a:=1",
+  "Lock a",
+  "getLockInfo(a)"
+ ],
+ "unLock": [
+  "a:=1",
+  "Lock a",
+  "unLock a",
+  "getLockInfo(a)"
+ ],
+ "Wait": [
+  "Wait 0"
+ ],
+ "Request": [
+  "Request \"x?\",v",
+  "v"
+ ],
+ "RequestStr": [
+  "RequestStr \"s?\",v",
+  "v"
+ ],
+ "eval": [
+  "eval(1+1)"
+ ],
+ "Send": [
+  "Send \"x\""
+ ],
+ "Get": [
+  "Get v"
+ ],
+ "GetStr": [
+  "GetStr v"
+ ],
+ "RefreshProbeVars": [
+  "RefreshProbeVars"
+ ],
+ "Clear": [
+  "Clear"
+ ],
+ "DrawArc": [
+  "DrawArc 10,10,50,50,0,90"
+ ],
+ "DrawCircle": [
+  "DrawCircle 50,50,20"
+ ],
+ "DrawLine": [
+  "DrawLine 0,0,50,50"
+ ],
+ "DrawPoly": [
+  "DrawPoly {0,50,50},{0,0,50}"
+ ],
+ "DrawRect": [
+  "DrawRect 5,5,40,20"
+ ],
+ "DrawText": [
+  "DrawText 10,20,\"Hi\""
+ ],
+ "FillArc": [
+  "FillArc 10,10,50,50,0,90"
+ ],
+ "FillCircle": [
+  "FillCircle 50,50,20"
+ ],
+ "FillPoly": [
+  "FillPoly {0,50,50},{0,0,50}"
+ ],
+ "FillRect": [
+  "FillRect 5,5,40,20"
+ ],
+ "PaintBuffer": [
+  "PaintBuffer"
+ ],
+ "PlotXY": [
+  "PlotXY 10,10,1"
+ ],
+ "SetColor": [
+  "SetColor 255,0,0"
+ ],
+ "SetPen": [
+  "SetPen 1,1"
+ ],
+ "SetWindow": [
+  "SetWindow 0,10,0,10"
+ ],
+ "UseBuffer": [
+  "UseBuffer"
+ ]
+}

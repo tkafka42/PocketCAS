@@ -1,0 +1,3520 @@
+[
+ {
+  "commands": [
+   "Π"
+  ],
+  "statements": [
+   "π/4"
+  ],
+  "expected": "π/4"
+ },
+ {
+  "commands": [
+   "√"
+  ],
+  "statements": [
+   "√(8)"
+  ],
+  "expected": "2·√(2)"
+ },
+ {
+  "commands": [
+   "Disp"
+  ],
+  "statements": [
+   "Disp"
+  ],
+  "expected": "Done"
+ },
+ {
+  "commands": [
+   "ln"
+  ],
+  "statements": [
+   "ln(ℯ)"
+  ],
+  "expected": "1"
+ },
+ {
+  "commands": [
+   "ln"
+  ],
+  "statements": [
+   "ln(e)"
+  ],
+  "expected": "ln(e)"
+ },
+ {
+  "commands": [
+   "Π"
+  ],
+  "statements": [
+   "π^2/6"
+  ],
+  "expected": "π^2/6"
+ },
+ {
+  "commands": [
+   "√"
+  ],
+  "statements": [
+   "2·√(2)"
+  ],
+  "expected": "2·√(2)"
+ },
+ {
+  "commands": [
+   "cos"
+  ],
+  "statements": [
+   "cos(x)"
+  ],
+  "expected": "cos(x)"
+ },
+ {
+  "commands": [
+   "sec"
+  ],
+  "statements": [
+   "sec(0)"
+  ],
+  "expected": "1"
+ },
+ {
+  "commands": [
+   "sin"
+  ],
+  "statements": [
+   "sin(30)"
+  ],
+  "expected": "sin(30)"
+ },
+ {
+  "commands": [
+   "cos"
+  ],
+  "statements": [
+   "cos(60)"
+  ],
+  "expected": "cos(60)"
+ },
+ {
+  "commands": [
+   "abs"
+  ],
+  "statements": [
+   "abs(-3)"
+  ],
+  "expected": "3"
+ },
+ {
+  "commands": [
+   "cosh"
+  ],
+  "statements": [
+   "cosh(0)"
+  ],
+  "expected": "1"
+ },
+ {
+  "commands": [
+   "Π"
+  ],
+  "statements": [
+   "(1∠π/2)"
+  ],
+  "expected": "ⅈ"
+ },
+ {
+  "commands": [
+   "log"
+  ],
+  "statements": [
+   "log(8,2)"
+  ],
+  "expected": "3"
+ },
+ {
+  "commands": [
+   "√"
+  ],
+  "statements": [
+   "sqrt(16)"
+  ],
+  "expected": "4"
+ },
+ {
+  "commands": [
+   "sin",
+   "Π"
+  ],
+  "statements": [
+   "sin(π/6)"
+  ],
+  "expected": "1/2"
+ },
+ {
+  "commands": [
+   "cos"
+  ],
+  "statements": [
+   "cos(60°)"
+  ],
+  "expected": "1/2"
+ },
+ {
+  "commands": [
+   "nCr"
+  ],
+  "statements": [
+   "nCr(5,2)"
+  ],
+  "expected": "10"
+ },
+ {
+  "commands": [
+   "√"
+  ],
+  "statements": [
+   "√(x^2+1)"
+  ],
+  "expected": "√(x^2+1)"
+ },
+ {
+  "commands": [
+   "d"
+  ],
+  "statements": [
+   "d(x^3,x)"
+  ],
+  "expected": "3·x^2"
+ },
+ {
+  "commands": [
+   "char"
+  ],
+  "statements": [
+   "char(65)"
+  ],
+  "expected": "\"A\""
+ },
+ {
+  "commands": [
+   "ord"
+  ],
+  "statements": [
+   "ord(\"A\")"
+  ],
+  "expected": "65"
+ },
+ {
+  "commands": [
+   "cos"
+  ],
+  "statements": [
+   "y=cos(x)"
+  ],
+  "expected": "y=cos(x)"
+ },
+ {
+  "commands": [
+   "log"
+  ],
+  "statements": [
+   "log(1000)"
+  ],
+  "expected": "3"
+ },
+ {
+  "commands": [
+   "ln"
+  ],
+  "statements": [
+   "ℯ^(ln(5))"
+  ],
+  "expected": "5"
+ },
+ {
+  "commands": [
+   "sin⁻¹"
+  ],
+  "statements": [
+   "arcsin(1)"
+  ],
+  "expected": "π/2"
+ },
+ {
+  "commands": [
+   "approx"
+  ],
+  "statements": [
+   "approx(3)"
+  ],
+  "expected": "3."
+ },
+ {
+  "commands": [
+   "tPdf"
+  ],
+  "statements": [
+   "tPdf(0,1)"
+  ],
+  "expected": "0.31831"
+ },
+ {
+  "commands": [
+   "Text"
+  ],
+  "statements": [
+   "v:=\"text\""
+  ],
+  "expected": "\"text\""
+ },
+ {
+  "commands": [
+   "√"
+  ],
+  "statements": [
+   "√(-4)+0@i"
+  ],
+  "expected": "2·ⅈ"
+ },
+ {
+  "commands": [
+   "int"
+  ],
+  "statements": [
+   "int(-2.5)"
+  ],
+  "expected": "-3."
+ },
+ {
+  "commands": [
+   "int"
+  ],
+  "statements": [
+   "int(-5/2)"
+  ],
+  "expected": "-3"
+ },
+ {
+  "commands": [
+   "R►Pθ"
+  ],
+  "statements": [
+   "R►Pθ(1,1)"
+  ],
+  "expected": "π/4"
+ },
+ {
+  "commands": [
+   "sin",
+   "sin⁻¹"
+  ],
+  "statements": [
+   "sin⁻¹(1/2)"
+  ],
+  "expected": "π/6"
+ },
+ {
+  "commands": [
+   "normPdf"
+  ],
+  "statements": [
+   "normPdf(0)"
+  ],
+  "expected": "0.398942"
+ },
+ {
+  "commands": [
+   "Σ"
+  ],
+  "statements": [
+   "Σ(k,k,1,n)"
+  ],
+  "expected": "n^2/2+n/2"
+ },
+ {
+  "commands": [
+   "right"
+  ],
+  "statements": [
+   "right(x=3)"
+  ],
+  "expected": "3"
+ },
+ {
+  "commands": [
+   "newList"
+  ],
+  "statements": [
+   "newList(3)"
+  ],
+  "expected": "{0,0,0}"
+ },
+ {
+  "commands": [
+   "Π"
+  ],
+  "statements": [
+   "Π(k,k,1,5)"
+  ],
+  "expected": "120"
+ },
+ {
+  "commands": [
+   "d"
+  ],
+  "statements": [
+   "d(x^3,x,2)"
+  ],
+  "expected": "6·x"
+ },
+ {
+  "commands": [
+   "eff"
+  ],
+  "statements": [
+   "eff(10,12)"
+  ],
+  "expected": "10.4713"
+ },
+ {
+  "commands": [
+   "getMode"
+  ],
+  "statements": [
+   "getMode(2)"
+  ],
+  "expected": "1"
+ },
+ {
+  "commands": [
+   "getType"
+  ],
+  "statements": [
+   "getType(v)"
+  ],
+  "expected": "\"NONE\""
+ },
+ {
+  "commands": [
+   "factor"
+  ],
+  "statements": [
+   "factor(360)"
+  ],
+  "expected": "2^3·3^2·5"
+ },
+ {
+  "commands": [
+   "exact"
+  ],
+  "statements": [
+   "exact(0.25)"
+  ],
+  "expected": "1/4"
+ },
+ {
+  "commands": [
+   "identity"
+  ],
+  "statements": [
+   "identity(2)"
+  ],
+  "expected": "[[1,0][0,1]]"
+ },
+ {
+  "commands": [
+   "diag"
+  ],
+  "statements": [
+   "diag({1,2})"
+  ],
+  "expected": "[[1,0][0,2]]"
+ },
+ {
+  "commands": [
+   "string"
+  ],
+  "statements": [
+   "string(1/3)"
+  ],
+  "expected": "\"1/3\""
+ },
+ {
+  "commands": [
+   "expr"
+  ],
+  "statements": [
+   "expr(\"2+3\")"
+  ],
+  "expected": "5"
+ },
+ {
+  "commands": [
+   "isPrime"
+  ],
+  "statements": [
+   "isPrime(17)"
+  ],
+  "expected": "true"
+ },
+ {
+  "commands": [
+   "FPdf"
+  ],
+  "statements": [
+   "FPdf(1,2,3)"
+  ],
+  "expected": "0.278855"
+ },
+ {
+  "commands": [
+   "P►Rx",
+   "Π"
+  ],
+  "statements": [
+   "P►Rx(2,π/3)"
+  ],
+  "expected": "1"
+ },
+ {
+  "commands": [
+   "approx",
+   "√"
+  ],
+  "statements": [
+   "approx(√(2))"
+  ],
+  "expected": "1.41421"
+ },
+ {
+  "commands": [
+   "∫"
+  ],
+  "statements": [
+   "∫(x^2,x,0,3)"
+  ],
+  "expected": "9"
+ },
+ {
+  "commands": [
+   "dim"
+  ],
+  "statements": [
+   "dim(\"hello\")"
+  ],
+  "expected": "5"
+ },
+ {
+  "commands": [
+   "Σ"
+  ],
+  "statements": [
+   "Σ(k,k,1,100)"
+  ],
+  "expected": "5050"
+ },
+ {
+  "commands": [
+   "intDiv"
+  ],
+  "statements": [
+   "intDiv(-7,2)"
+  ],
+  "expected": "-3"
+ },
+ {
+  "commands": [
+   "setMode"
+  ],
+  "statements": [
+   "setMode(2,2)"
+  ],
+  "expected": "1"
+ },
+ {
+  "commands": [
+   "√"
+  ],
+  "statements": [
+   "√([4,0;0,9])"
+  ],
+  "expected": "[[2,0][0,3]]"
+ },
+ {
+  "commands": [
+   "sin",
+   "Π"
+  ],
+  "statements": [
+   "sin({0,π/2})"
+  ],
+  "expected": "{0,1}"
+ },
+ {
+  "commands": [
+   "factor"
+  ],
+  "statements": [
+   "factor(x^2-2)"
+  ],
+  "expected": "x^2-2"
+ },
+ {
+  "commands": [
+   "normCdf"
+  ],
+  "statements": [
+   "normCdf(-1,1)"
+  ],
+  "expected": "0.682689"
+ },
+ {
+  "commands": [
+   "invt"
+  ],
+  "statements": [
+   "invt(0.95,24)"
+  ],
+  "expected": "1.71088"
+ },
+ {
+  "commands": [
+   "poissPdf"
+  ],
+  "statements": [
+   "poissPdf(3,2)"
+  ],
+  "expected": "0.224042"
+ },
+ {
+  "commands": [
+   "normCdf"
+  ],
+  "statements": [
+   "NORMCDF(-1,1)"
+  ],
+  "expected": "0.682689"
+ },
+ {
+  "commands": [
+   "normCdf"
+  ],
+  "statements": [
+   "normcdf(-1,1)"
+  ],
+  "expected": "0.682689"
+ },
+ {
+  "commands": [
+   "domain"
+  ],
+  "statements": [
+   "domain(1/x,x)"
+  ],
+  "expected": "x<0 or x>0"
+ },
+ {
+  "commands": [
+   "FCdf"
+  ],
+  "statements": [
+   "FCdf(0,2,3,4)"
+  ],
+  "expected": "0.743613"
+ },
+ {
+  "commands": [
+   "invχ²"
+  ],
+  "statements": [
+   "invχ²(0.95,1)"
+  ],
+  "expected": "3.84146"
+ },
+ {
+  "commands": [
+   "solve"
+  ],
+  "statements": [
+   "solve(x^2>4,x)"
+  ],
+  "expected": "x<-2 or x>2"
+ },
+ {
+  "commands": [
+   "solve"
+  ],
+  "statements": [
+   "solve(x^2≤4,x)"
+  ],
+  "expected": "-2≤x≤2"
+ },
+ {
+  "commands": [
+   "zeros"
+  ],
+  "statements": [
+   "zeros(x^3-x,x)"
+  ],
+  "expected": "{-1,0,1}"
+ },
+ {
+  "commands": [
+   "avgRC"
+  ],
+  "statements": [
+   "avgRC(x^2,x=1)"
+  ],
+  "expected": "2001/1000"
+ },
+ {
+  "commands": [
+   "invNorm"
+  ],
+  "statements": [
+   "invNorm(0.975)"
+  ],
+  "expected": "1.95996"
+ },
+ {
+  "commands": [
+   "invt"
+  ],
+  "statements": [
+   "invt(0.975,10)"
+  ],
+  "expected": "2.22814"
+ },
+ {
+  "commands": [
+   "det"
+  ],
+  "statements": [
+   "det([1,2;3,4])"
+  ],
+  "expected": "-2"
+ },
+ {
+  "commands": [
+   "seq"
+  ],
+  "statements": [
+   "seq(n^2,n,1,5)"
+  ],
+  "expected": "{1,4,9,16,25}"
+ },
+ {
+  "commands": [
+   "shift"
+  ],
+  "statements": [
+   "shift(\"abc\",1)"
+  ],
+  "expected": "\"bc \""
+ },
+ {
+  "commands": [
+   "fMin"
+  ],
+  "statements": [
+   "fMin(x^2-4x,x)"
+  ],
+  "expected": "x=2"
+ },
+ {
+  "commands": [
+   "exp"
+  ],
+  "statements": [
+   "exp([0,1;0,0])"
+  ],
+  "expected": "[[1,1][0,1]]"
+ },
+ {
+  "commands": [
+   "factor"
+  ],
+  "statements": [
+   "factor(x^2-2,x)"
+  ],
+  "expected": "(x-√(2))·(x+√(2))"
+ },
+ {
+  "commands": [
+   "expand"
+  ],
+  "statements": [
+   "expand((x+1)^3)"
+  ],
+  "expected": "x^3+3·x^2+3·x+1"
+ },
+ {
+  "commands": [
+   "∫"
+  ],
+  "statements": [
+   "integral(x^2,x)"
+  ],
+  "expected": "x^3/3"
+ },
+ {
+  "commands": [
+   "mean"
+  ],
+  "statements": [
+   "mean({1,2,3,4})"
+  ],
+  "expected": "5/2"
+ },
+ {
+  "commands": [
+   "cZeros"
+  ],
+  "statements": [
+   "cZeros(x^2+1,x)"
+  ],
+  "expected": "{-ⅈ,ⅈ}"
+ },
+ {
+  "commands": [
+   "binomPdf"
+  ],
+  "statements": [
+   "binomPdf(3,0.5)"
+  ],
+  "expected": "{0.125,0.375,0.375,0.125}"
+ },
+ {
+  "commands": [
+   "normCdf"
+  ],
+  "statements": [
+   "normCdf(1.96,∞)"
+  ],
+  "expected": "0.0249979"
+ },
+ {
+  "commands": [
+   "poissCdf"
+  ],
+  "statements": [
+   "poissCdf(3,0,2)"
+  ],
+  "expected": "0.42319"
+ },
+ {
+  "commands": [
+   "left"
+  ],
+  "statements": [
+   "left(\"hello\",2)"
+  ],
+  "expected": "\"he\""
+ },
+ {
+  "commands": [
+   "fMax"
+  ],
+  "statements": [
+   "fMax(-x^2+4x,x)"
+  ],
+  "expected": "x=2"
+ },
+ {
+  "commands": [
+   "nfMin"
+  ],
+  "statements": [
+   "nfMin(x^2-4x,x)"
+  ],
+  "expected": "2."
+ },
+ {
+  "commands": [
+   "invF"
+  ],
+  "statements": [
+   "invF(0.95,2,10)"
+  ],
+  "expected": "4.10282"
+ },
+ {
+  "commands": [
+   "invχ²"
+  ],
+  "statements": [
+   "invChi2(0.95,1)"
+  ],
+  "expected": "3.84146"
+ },
+ {
+  "commands": [
+   "solve"
+  ],
+  "statements": [
+   "solve(x^2=2,x=1)"
+  ],
+  "expected": "x=1.41421"
+ },
+ {
+  "commands": [
+   "solve"
+  ],
+  "statements": [
+   "solve(a*x+b=0,x)"
+  ],
+  "expected": "x=-b/a"
+ },
+ {
+  "commands": [
+   "factor"
+  ],
+  "statements": [
+   "factor(x^2-5x+6)"
+  ],
+  "expected": "(x-3)·(x-2)"
+ },
+ {
+  "commands": [
+   "cFactor"
+  ],
+  "statements": [
+   "cFactor(x^2+1,x)"
+  ],
+  "expected": "(x-ⅈ)·(x+ⅈ)"
+ },
+ {
+  "commands": [
+   "χ²Cdf"
+  ],
+  "statements": [
+   "χ²Cdf(0,3.841,1)"
+  ],
+  "expected": "0.949986"
+ },
+ {
+  "commands": [
+   "Π"
+  ],
+  "statements": [
+   "x=π/6 or x=5·π/6"
+  ],
+  "expected": "x=π/6 or x=5·π/6"
+ },
+ {
+  "commands": [
+   "trace"
+  ],
+  "statements": [
+   "trace([1,2;3,4])"
+  ],
+  "expected": "5"
+ },
+ {
+  "commands": [
+   "seq"
+  ],
+  "statements": [
+   "seq(n,n,10,1,-3)"
+  ],
+  "expected": "{10,7,4,1}"
+ },
+ {
+  "commands": [
+   "shift"
+  ],
+  "statements": [
+   "shift({1,2,3},1)"
+  ],
+  "expected": "{2,3,undef}"
+ },
+ {
+  "commands": [
+   "right"
+  ],
+  "statements": [
+   "right(\"hello\",3)"
+  ],
+  "expected": "\"llo\""
+ },
+ {
+  "commands": [
+   "mid"
+  ],
+  "statements": [
+   "mid(\"hello\",2,3)"
+  ],
+  "expected": "\"ell\""
+ },
+ {
+  "commands": [
+   "eigVl"
+  ],
+  "statements": [
+   "eigVl([2,0;0,3])"
+  ],
+  "expected": "{3.,2.}"
+ },
+ {
+  "commands": [
+   "√"
+  ],
+  "statements": [
+   "(x-√(2))·(x+√(2))"
+  ],
+  "expected": "(x-√(2))·(x+√(2))"
+ },
+ {
+  "commands": [
+   "cos",
+   "solve"
+  ],
+  "statements": [
+   "solve(cos(x)=x,x)"
+  ],
+  "expected": "x=0.739085"
+ },
+ {
+  "commands": [
+   "d"
+  ],
+  "statements": [
+   "derivative(x^3,x)"
+  ],
+  "expected": "3·x^2"
+ },
+ {
+  "commands": [
+   "median"
+  ],
+  "statements": [
+   "median({5,1,3,2})"
+  ],
+  "expected": "5/2"
+ },
+ {
+  "commands": [
+   "tCdf"
+  ],
+  "statements": [
+   "tCdf(-∞,2.228,10)"
+  ],
+  "expected": "0.974994"
+ },
+ {
+  "commands": [
+   "ΔList"
+  ],
+  "statements": [
+   "ΔList({1,4,9,16})"
+  ],
+  "expected": "{3,5,7}"
+ },
+ {
+  "commands": [
+   "left"
+  ],
+  "statements": [
+   "left({1,2,3,4},2)"
+  ],
+  "expected": "{1,2}"
+ },
+ {
+  "commands": [
+   "rotate"
+  ],
+  "statements": [
+   "rotate({1,2,3},1)"
+  ],
+  "expected": "{2,3,1}"
+ },
+ {
+  "commands": [
+   "rotate"
+  ],
+  "statements": [
+   "rotate(\"abcd\",-1)"
+  ],
+  "expected": "\"dabc\""
+ },
+ {
+  "commands": [
+   "taylor"
+  ],
+  "statements": [
+   "taylor(ℯ^(x),x,3)"
+  ],
+  "expected": "x^3/6+x^2/2+x+1"
+ },
+ {
+  "commands": [
+   "deSolve"
+  ],
+  "statements": [
+   "deSolve(y'=y,x,y)"
+  ],
+  "expected": "y=c1·ℯ^x"
+ },
+ {
+  "commands": [
+   "getDenom"
+  ],
+  "statements": [
+   "getDenom(1/x+1/y)"
+  ],
+  "expected": "x·y"
+ },
+ {
+  "commands": [
+   "arcLen"
+  ],
+  "statements": [
+   "arcLen(x^2,x,0,1)"
+  ],
+  "expected": "sinh⁻¹(2)/4+√(5)/2"
+ },
+ {
+  "commands": [
+   "nom"
+  ],
+  "statements": [
+   "nom(10.471307,12)"
+  ],
+  "expected": "10."
+ },
+ {
+  "commands": [
+   "solve"
+  ],
+  "statements": [
+   "solve(x^2-x-6=0,x)"
+  ],
+  "expected": "x=-2 or x=3"
+ },
+ {
+  "commands": [
+   "solve"
+  ],
+  "statements": [
+   "solve(x^2=4,x)|x>0"
+  ],
+  "expected": "x=2"
+ },
+ {
+  "commands": [
+   "cos",
+   "nSolve"
+  ],
+  "statements": [
+   "nSolve(cos(x)=x,x)"
+  ],
+  "expected": "0.739085"
+ },
+ {
+  "commands": [
+   "nSolve"
+  ],
+  "statements": [
+   "nSolve(x^2=2,x=-5)"
+  ],
+  "expected": "-1.41421"
+ },
+ {
+  "commands": [
+   "binomCdf"
+  ],
+  "statements": [
+   "binomCdf(20,0.1,3)"
+  ],
+  "expected": "0.867047"
+ },
+ {
+  "commands": [
+   "binomPdf"
+  ],
+  "statements": [
+   "binomPdf(10,0.5,5)"
+  ],
+  "expected": "0.246094"
+ },
+ {
+  "commands": [
+   "binomPdf"
+  ],
+  "statements": [
+   "binomPdf(20,0.1,0)"
+  ],
+  "expected": "0.121577"
+ },
+ {
+  "commands": [
+   "OneVar"
+  ],
+  "statements": [
+   "OneVar {1,2,3,4,5}"
+  ],
+  "expected": "\"Title\"           \"One-Variable Statistics\"\n\"x̄\"               3.\n\"Σx\"              15.\n\"Σx²\"             55.\n\"sx := sn-1x\"     1.58114\n\"σx := σnx\"       1.41421\n\"n\"               5\n\"MinX\"            1.\n\"Q₁X\"             1.5\n\"MedianX\"         3.\n\"Q₃X\"             4.5\n\"MaxX\"            5.\n\"SSX := Σ(x-x̄)²\"  10."
+ },
+ {
+  "commands": [
+   "dim"
+  ],
+  "statements": [
+   "dim([1,2,3;4,5,6])"
+  ],
+  "expected": "{2,3}"
+ },
+ {
+  "commands": [
+   "augment"
+  ],
+  "statements": [
+   "augment({1,2},{3})"
+  ],
+  "expected": "{1,2,3}"
+ },
+ {
+  "commands": [
+   "tmpCnv"
+  ],
+  "statements": [
+   "tmpCnv(100_°C,_°F)"
+  ],
+  "expected": "212·_°f"
+ },
+ {
+  "commands": [
+   "limit",
+   "sin"
+  ],
+  "statements": [
+   "limit(sin(x)/x,x,0)"
+  ],
+  "expected": "1"
+ },
+ {
+  "commands": [
+   "normPdf"
+  ],
+  "statements": [
+   "normPdf(500,500,10)"
+  ],
+  "expected": "0.0398942"
+ },
+ {
+  "commands": [
+   "invNorm"
+  ],
+  "statements": [
+   "invNorm(0.9,100,15)"
+  ],
+  "expected": "119.223"
+ },
+ {
+  "commands": [
+   "zInterval"
+  ],
+  "statements": [
+   "zInterval 15,100,25"
+  ],
+  "expected": "\"Title\"           \"z Interval\"\n\"CLower, CUpper\"  {94.1201,105.88}\n\"x̄\"               100.\n\"ME\"              5.87989\n\"n\"               25\n\"σ\"               15."
+ },
+ {
+  "commands": [
+   "Σ"
+  ],
+  "statements": [
+   "sumSeq(1/k^2,k,1,∞)"
+  ],
+  "expected": "π^2/6"
+ },
+ {
+  "commands": [
+   "rref"
+  ],
+  "statements": [
+   "rref([1,2,3;4,5,6])"
+  ],
+  "expected": "[[1,0,-1][0,1,2]]"
+ },
+ {
+  "commands": [
+   "mat►list"
+  ],
+  "statements": [
+   "mat►list([1,2;3,4])"
+  ],
+  "expected": "{1,2,3,4}"
+ },
+ {
+  "commands": [
+   "format"
+  ],
+  "statements": [
+   "format(1234.5,\"S2\")"
+  ],
+  "expected": "\"1.23E3\""
+ },
+ {
+  "commands": [
+   "polyDegree"
+  ],
+  "statements": [
+   "polyDegree(x^3+x,x)"
+  ],
+  "expected": "3"
+ },
+ {
+  "commands": [
+   "polyRoots"
+  ],
+  "statements": [
+   "polyRoots({1,-5,6})"
+  ],
+  "expected": "{2,3}"
+ },
+ {
+  "commands": [
+   "cPolyRoots"
+  ],
+  "statements": [
+   "cPolyRoots({1,0,1})"
+  ],
+  "expected": "{-ⅈ,ⅈ}"
+ },
+ {
+  "commands": [
+   "polyEval"
+  ],
+  "statements": [
+   "polyEval({1,2,3},2)"
+  ],
+  "expected": "11"
+ },
+ {
+  "commands": [
+   "nfMax",
+   "sin"
+  ],
+  "statements": [
+   "nfMax(sin(x),x,0,3)"
+  ],
+  "expected": "1.5708"
+ },
+ {
+  "commands": [
+   "tvmFV"
+  ],
+  "statements": [
+   "tvmFV(10,5,-1000,0)"
+  ],
+  "expected": "1628.89"
+ },
+ {
+  "commands": [
+   "dbd"
+  ],
+  "statements": [
+   "dbd(12.3121,1.0122)"
+  ],
+  "expected": "1."
+ },
+ {
+  "commands": [
+   "solve"
+  ],
+  "statements": [
+   "solve(x^2+4x+13=0,x)"
+  ],
+  "expected": "false"
+ },
+ {
+  "commands": [
+   "nSolve"
+  ],
+  "statements": [
+   "nSolve(x^2=2,x,0,10)"
+  ],
+  "expected": "1.41421"
+ },
+ {
+  "commands": [
+   "centralDiff"
+  ],
+  "statements": [
+   "centralDiff(x^3,x=2)"
+  ],
+  "expected": "12."
+ },
+ {
+  "commands": [
+   "nDerivative"
+  ],
+  "statements": [
+   "nDerivative(x^3,x=2)"
+  ],
+  "expected": "12."
+ },
+ {
+  "commands": [
+   "binomCdf"
+  ],
+  "statements": [
+   "binomCdf(20,0.1,0,3)"
+  ],
+  "expected": "0.867047"
+ },
+ {
+  "commands": [
+   "binomCdf"
+  ],
+  "statements": [
+   "BinomCdf(20,0.1,0,3)"
+  ],
+  "expected": "0.867047"
+ },
+ {
+  "commands": [
+   "augment"
+  ],
+  "statements": [
+   "augment([1;2],[3;4])"
+  ],
+  "expected": "[[1,3][2,4]]"
+ },
+ {
+  "commands": [
+   "countIf"
+  ],
+  "statements": [
+   "countIf({1,3,3,7},3)"
+  ],
+  "expected": "2"
+ },
+ {
+  "commands": [
+   "sumIf"
+  ],
+  "statements": [
+   "sumIf({1,2,3,4},?>2)"
+  ],
+  "expected": "7"
+ },
+ {
+  "commands": [
+   "mid"
+  ],
+  "statements": [
+   "mid({1,2,3,4,5},2,3)"
+  ],
+  "expected": "{2,3,4}"
+ },
+ {
+  "commands": [
+   "format"
+  ],
+  "statements": [
+   "format(3.14159,\"F2\")"
+  ],
+  "expected": "\"3.14\""
+ },
+ {
+  "commands": [
+   "tangentLine"
+  ],
+  "statements": [
+   "tangentLine(x^2,x,1)"
+  ],
+  "expected": "2·x-1"
+ },
+ {
+  "commands": [
+   "d",
+   "sin"
+  ],
+  "statements": [
+   "derivative(sin(x),x)"
+  ],
+  "expected": "cos(x)"
+ },
+ {
+  "commands": [
+   "tvmN"
+  ],
+  "statements": [
+   "tvmN(5,-1000,0,2000)"
+  ],
+  "expected": "14.2067"
+ },
+ {
+  "commands": [
+   "cSolve"
+  ],
+  "statements": [
+   "cSolve(x^2+4x+13=0,x)"
+  ],
+  "expected": "x=-2-3·ⅈ or x=-2+3·ⅈ"
+ },
+ {
+  "commands": [
+   "nInt"
+  ],
+  "statements": [
+   "nInt(ℯ^(-x^2),x,-∞,∞)"
+  ],
+  "expected": "1.77245"
+ },
+ {
+  "commands": [
+   "mean"
+  ],
+  "statements": [
+   "mean({1,2,3},{1,1,2})"
+  ],
+  "expected": "9/4"
+ },
+ {
+  "commands": [
+   "tInterval"
+  ],
+  "statements": [
+   "tInterval {1,2,3,4,5}"
+  ],
+  "expected": "\"Title\"           \"t Interval\"\n\"CLower, CUpper\"  {1.03676,4.96324}\n\"x̄\"               3.\n\"ME\"              1.96324\n\"df\"              4\n\"sx\"              1.58114\n\"n\"               5"
+ },
+ {
+  "commands": [
+   "dotP"
+  ],
+  "statements": [
+   "dotP({1,2,3},{4,5,6})"
+  ],
+  "expected": "32"
+ },
+ {
+  "commands": [
+   "charPoly"
+  ],
+  "statements": [
+   "charPoly([1,2;3,4],x)"
+  ],
+  "expected": "x^2-5·x-2"
+ },
+ {
+  "commands": [
+   "list►mat"
+  ],
+  "statements": [
+   "list►mat({1,2,3,4},2)"
+  ],
+  "expected": "[[1,2][3,4]]"
+ },
+ {
+  "commands": [
+   "ΔList"
+  ],
+  "statements": [
+   "deltaList({1,4,9,16})"
+  ],
+  "expected": "{3,5,7}"
+ },
+ {
+  "commands": [
+   "polyRoots"
+  ],
+  "statements": [
+   "polyRoots(x^2-5x+6,x)"
+  ],
+  "expected": "{2,3}"
+ },
+ {
+  "commands": [
+   "impDif"
+  ],
+  "statements": [
+   "impDif(x^2+y^2=1,x,y)"
+  ],
+  "expected": "-x/y"
+ },
+ {
+  "commands": [
+   "getNum"
+  ],
+  "statements": [
+   "getNum((x+1)/(x-1)+1)"
+  ],
+  "expected": "2·x"
+ },
+ {
+  "commands": [
+   "zTest"
+  ],
+  "statements": [
+   "zTest 100,15,105,30,1"
+  ],
+  "expected": "\"Title\"          \"z Test\"\n\"Alternate Hyp\"  \"μ > μ0\"\n\"z\"              1.82574\n\"PVal\"           0.0339446\n\"x̄\"              105.\n\"n\"              30"
+ },
+ {
+  "commands": [
+   "tTest"
+  ],
+  "statements": [
+   "tTest 100,105,15,30,1"
+  ],
+  "expected": "\"Title\"          \"t Test\"\n\"Alternate Hyp\"  \"μ > μ0\"\n\"t\"              1.82574\n\"PVal\"           0.0391017\n\"df\"             29\n\"x̄\"              105.\n\"sx\"             15.\n\"n\"              30"
+ },
+ {
+  "commands": [
+   "invBinom"
+  ],
+  "statements": [
+   "invBinom(0.77,30,1/6)"
+  ],
+  "expected": "6."
+ },
+ {
+  "commands": [
+   "tvmPV"
+  ],
+  "statements": [
+   "tvmPV(10,5,0,1628.89)"
+  ],
+  "expected": "-999.997"
+ },
+ {
+  "commands": [
+   "tvmI"
+  ],
+  "statements": [
+   "tvmI(10,-1000,0,2000)"
+  ],
+  "expected": "7.17735"
+ },
+ {
+  "commands": [
+   "getType"
+  ],
+  "statements": [
+   "getType(undefinedvar)"
+  ],
+  "expected": "\"NONE\""
+ },
+ {
+  "commands": [
+   "centralDiff"
+  ],
+  "statements": [
+   "centralDiff(x^3,x)|x=2"
+  ],
+  "expected": "12."
+ },
+ {
+  "commands": [
+   "nDerivative"
+  ],
+  "statements": [
+   "nDerivative(x^3,x=2,2)"
+  ],
+  "expected": "12."
+ },
+ {
+  "commands": [
+   "normCdf"
+  ],
+  "statements": [
+   "normCdf(-∞,520,500,10)"
+  ],
+  "expected": "0.97725"
+ },
+ {
+  "commands": [
+   "zInterval"
+  ],
+  "statements": [
+   "zInterval 15,100,25,95"
+  ],
+  "expected": "\"Title\"           \"z Interval\"\n\"CLower, CUpper\"  {94.1201,105.88}\n\"x̄\"               100.\n\"ME\"              5.87989\n\"n\"               25\n\"σ\"               15."
+ },
+ {
+  "commands": [
+   "rowSwap"
+  ],
+  "statements": [
+   "rowSwap([1,2;3,4],1,2)"
+  ],
+  "expected": "[[3,4][1,2]]"
+ },
+ {
+  "commands": [
+   "cumulativeSum"
+  ],
+  "statements": [
+   "cumulativeSum({1,2,3})"
+  ],
+  "expected": "{1,3,6}"
+ },
+ {
+  "commands": [
+   "inString"
+  ],
+  "statements": [
+   "inString(\"hello\",\"ll\")"
+  ],
+  "expected": "3"
+ },
+ {
+  "commands": [
+   "zTest_1Prop"
+  ],
+  "statements": [
+   "zTest_1Prop 0.5,60,100"
+  ],
+  "expected": "\"Title\"          \"1-Prop z Test\"\n\"Alternate Hyp\"  \"p ≠ p0\"\n\"p0\"             0.5\n\"z\"              2.\n\"PVal\"           0.0455003\n\"p̂\"              0.6\n\"n\"              100"
+ },
+ {
+  "commands": [
+   "zInterval_1Prop"
+  ],
+  "statements": [
+   "zInterval_1Prop 60,100"
+  ],
+  "expected": "\"Title\"           \"1-Prop z Interval\"\n\"CLower, CUpper\"  {0.503982,0.696018}\n\"p̂\"               0.6\n\"ME\"              0.0960182\n\"n\"               100"
+ },
+ {
+  "commands": [
+   "χ²2way"
+  ],
+  "statements": [
+   "chi22way [10,20;30,40]"
+  ],
+  "expected": "\"Title\"    \"χ² 2-way\"\n\"χ²\"       0.793651\n\"PVal\"     0.372998\n\"df\"       1\n\"ExpMat\"   [[12.,18.][28.,42.]]\n\"CompMat\"  [[0.333333,0.222222][0.142857,0.0952381]]"
+ },
+ {
+  "commands": [
+   "tCdf"
+  ],
+  "statements": [
+   "tCdf(-2.0639,2.0639,24)"
+  ],
+  "expected": "0.95"
+ },
+ {
+  "commands": [
+   "crossP"
+  ],
+  "statements": [
+   "crossP([1,0,0],[0,1,0])"
+  ],
+  "expected": "[0,0,1]"
+ },
+ {
+  "commands": [
+   "colAugment"
+  ],
+  "statements": [
+   "colAugment([1,2],[3,4])"
+  ],
+  "expected": "[[1,2][3,4]]"
+ },
+ {
+  "commands": [
+   "polyCoeffs"
+  ],
+  "statements": [
+   "polyCoeffs(3x^2+2x+1,x)"
+  ],
+  "expected": "{3,2,1}"
+ },
+ {
+  "commands": [
+   "polyGcd"
+  ],
+  "statements": [
+   "polyGcd(x^2-1,x^2+2x+1)"
+  ],
+  "expected": "x+1"
+ },
+ {
+  "commands": [
+   "binomPdf"
+  ],
+  "statements": [
+   "binomPdf(10,0.5,{0,1,2})"
+  ],
+  "expected": "{0.000976562,0.00976563,0.0439453}"
+ },
+ {
+  "commands": [
+   "zInterval"
+  ],
+  "statements": [
+   "zInterval 15,100,25,0.95"
+  ],
+  "expected": "\"Title\"           \"z Interval\"\n\"CLower, CUpper\"  {94.1201,105.88}\n\"x̄\"               100.\n\"ME\"              5.87989\n\"n\"               25\n\"σ\"               15."
+ },
+ {
+  "commands": [
+   "tInterval"
+  ],
+  "statements": [
+   "tInterval 100,15,25,0.95"
+  ],
+  "expected": "\"Title\"           \"t Interval\"\n\"CLower, CUpper\"  {93.8083,106.192}\n\"x̄\"               100.\n\"ME\"              6.1917\n\"df\"              24\n\"sx\"              15.\n\"n\"               25"
+ },
+ {
+  "commands": [
+   "euler"
+  ],
+  "statements": [
+   "euler(y,x,y,{0,1},1,0.5)"
+  ],
+  "expected": "[[0,0.5,1.][1.,1.5,2.25]]"
+ },
+ {
+  "commands": [
+   "simult"
+  ],
+  "statements": [
+   "simult([1,2;3,4],[1;-1])"
+  ],
+  "expected": "[[-3][2]]"
+ },
+ {
+  "commands": [
+   "countIf"
+  ],
+  "statements": [
+   "countIf({1,3,5,7,9},?<5)"
+  ],
+  "expected": "2"
+ },
+ {
+  "commands": [
+   "irr"
+  ],
+  "statements": [
+   "irr(-1000,{300,400,500})"
+  ],
+  "expected": "8.89634"
+ },
+ {
+  "commands": [
+   "bal"
+  ],
+  "statements": [
+   "bal(3,60,10,5000,,,12,12)"
+  ],
+  "expected": "4804.67"
+ },
+ {
+  "commands": [
+   "constructMat"
+  ],
+  "statements": [
+   "constructMat(i+j,i,j,2,2)"
+  ],
+  "expected": "[[2,3][3,4]]"
+ },
+ {
+  "commands": [
+   "polyQuotient"
+  ],
+  "statements": [
+   "polyQuotient(x^2-1,x-1,x)"
+  ],
+  "expected": "x+1"
+ },
+ {
+  "commands": [
+   "polyRemainder"
+  ],
+  "statements": [
+   "polyRemainder(x^2+1,x-1,x)"
+  ],
+  "expected": "2"
+ },
+ {
+  "commands": [
+   "completeSquare"
+  ],
+  "statements": [
+   "completeSquare(x^2+6x+5,x)"
+  ],
+  "expected": "(x+3)^2-4"
+ },
+ {
+  "commands": [
+   "sin",
+   "solve",
+   "Π"
+  ],
+  "statements": [
+   "solve(sin(x)=1/2,x)|0≤x≤2π"
+  ],
+  "expected": "x=π/6 or x=5·π/6"
+ },
+ {
+  "commands": [
+   "tvmPmt"
+  ],
+  "statements": [
+   "tvmPmt(60,10,5000,0,12,12)"
+  ],
+  "expected": "-106.235"
+ },
+ {
+  "commands": [
+   "stDevPop"
+  ],
+  "statements": [
+   "stDevPop({2,4,4,4,5,5,7,9})"
+  ],
+  "expected": "2"
+ },
+ {
+  "commands": [
+   "approxRational"
+  ],
+  "statements": [
+   "approxRational(0.333333333)"
+  ],
+  "expected": "333333333/1000000000"
+ },
+ {
+  "commands": [
+   "npv"
+  ],
+  "statements": [
+   "npv(10,-1000,{300,400,500})"
+  ],
+  "expected": "-21.0368"
+ },
+ {
+  "commands": [
+   "freqTable►list"
+  ],
+  "statements": [
+   "freqTable►list({1,2},{2,3})"
+  ],
+  "expected": "{1,1,2,2,2}"
+ },
+ {
+  "commands": [
+   "solve"
+  ],
+  "statements": [
+   "solve(x+y=3 and x-y=1,{x,y})"
+  ],
+  "expected": "x=2 and y=1"
+ },
+ {
+  "commands": [
+   "stDevSamp"
+  ],
+  "statements": [
+   "stDevSamp({2,4,4,4,5,5,7,9})"
+  ],
+  "expected": "4·√(14)/7"
+ },
+ {
+  "commands": [
+   "deSolve"
+  ],
+  "statements": [
+   "deSolve(y'=y and y(0)=2,x,y)"
+  ],
+  "expected": "y=2·ℯ^x"
+ },
+ {
+  "commands": [
+   "LinRegMx"
+  ],
+  "statements": [
+   "LinRegMx {1,2,3,4},{2,4,6,8}"
+  ],
+  "expected": "\"Title\"   \"Linear Regression (mx+b)\"\n\"RegEqn\"  \"m*x+b\"\n\"m\"       2.\n\"b\"       0.\n\"r²\"      1.\n\"r\"       1.\n\"Resid\"   {0.,0.,0.,0.}"
+ },
+ {
+  "commands": [
+   "ExpReg"
+  ],
+  "statements": [
+   "ExpReg {0,1,2,3},{3,6,12,24}"
+  ],
+  "expected": "\"Title\"       \"Exponential Regression\"\n\"RegEqn\"      \"a*(b)^x\"\n\"a\"           3.\n\"b\"           2.\n\"r²\"          1.\n\"r\"           1.\n\"Resid\"       {0.,0.,0.,0.}\n\"ResidTrans\"  {0.,0.,0.,0.}"
+ },
+ {
+  "commands": [
+   "normCdf"
+  ],
+  "statements": [
+   "normCdf(-infinity,520,500,10)"
+  ],
+  "expected": "0.97725"
+ },
+ {
+  "commands": [
+   "zInterval"
+  ],
+  "statements": [
+   "zInterval 2,{1,2,3,4,5},1,0.9"
+  ],
+  "expected": "\"Title\"           \"z Interval\"\n\"CLower, CUpper\"  {1.5288,4.4712}\n\"x̄\"               3.\n\"ME\"              1.4712\n\"sx\"              1.58114\n\"n\"               5\n\"σ\"               2."
+ },
+ {
+  "commands": [
+   "χ²GOF"
+  ],
+  "statements": [
+   "χ²GOF {10,20,30},{20,20,20},2"
+  ],
+  "expected": "\"Title\"     \"χ² GOF\"\n\"χ²\"        10.\n\"PVal\"      0.00673795\n\"df\"        2\n\"CompList\"  {5.,0.,5.}"
+ },
+ {
+  "commands": [
+   "ANOVA"
+  ],
+  "statements": [
+   "ANOVA {1,2,3},{2,3,4},{5,6,7}"
+  ],
+  "expected": "\"Title\"       \"ANOVA\"\n\"F\"           13.\n\"PVal\"        0.0065918\n\"df\"          2\n\"SS\"          26.\n\"MS\"          13.\n\"dfError\"     6\n\"SSError\"     6.\n\"MSError\"     1.\n\"sp\"          1.\n\"xbarlist\"    {2.,3.,6.}\n\"CLowerList\"  {0.587275,1.58727,4.58727}\n\"CUpperList\"  {3.41273,4.41273,7.41273}"
+ },
+ {
+  "commands": [
+   "amortTbl"
+  ],
+  "statements": [
+   "amortTbl(3,60,10,5000,,,12,12)"
+  ],
+  "expected": "[[1.,-41.67,-64.57,4935.43][2.,-41.13,-65.11,4870.32][3.,-40.59,-65.65,4804.67]]"
+ },
+ {
+  "commands": [
+   "frequency"
+  ],
+  "statements": [
+   "frequency({1,2,3,4,5,6},{2,4})"
+  ],
+  "expected": "{2,2,2}"
+ },
+ {
+  "commands": [
+   "seqGen"
+  ],
+  "statements": [
+   "seqGen(u(n-1)*2,n,u,{1,5},{1})"
+  ],
+  "expected": "{1,2,4,8,16}"
+ },
+ {
+  "commands": [
+   "PowerReg"
+  ],
+  "statements": [
+   "PowerReg {1,2,3,4},{2,8,18,32}"
+  ],
+  "expected": "\"Title\"       \"Power Regression\"\n\"RegEqn\"      \"a*x^b\"\n\"a\"           2.\n\"b\"           2.\n\"r²\"          1.\n\"r\"           1.\n\"Resid\"       {0.,0.,0.,0.}\n\"ResidTrans\"  {0.,0.,0.,0.}"
+ },
+ {
+  "commands": [
+   "subMat"
+  ],
+  "statements": [
+   "subMat([1,2,3;4,5,6;7,8,9],2,2)"
+  ],
+  "expected": "[[5,6][8,9]]"
+ },
+ {
+  "commands": [
+   "linSolve"
+  ],
+  "statements": [
+   "linSolve(x+y=3 and x-y=1,{x,y})"
+  ],
+  "expected": "{2,1}"
+ },
+ {
+  "commands": [
+   "approxRational"
+  ],
+  "statements": [
+   "approxRational(0.333333333,1E-6)"
+  ],
+  "expected": "1/3"
+ },
+ {
+  "commands": [
+   "LinRegMx"
+  ],
+  "statements": [
+   "LinRegMx {1,2,3,4,5},{2,4,5,4,5}"
+  ],
+  "expected": "\"Title\"   \"Linear Regression (mx+b)\"\n\"RegEqn\"  \"m*x+b\"\n\"m\"       0.6\n\"b\"       2.2\n\"r²\"      0.6\n\"r\"       0.774597\n\"Resid\"   {-0.8,0.6,1.,-0.6,-0.2}"
+ },
+ {
+  "commands": [
+   "QuadReg"
+  ],
+  "statements": [
+   "QuadReg {0,1,2,3,4},{1,2,5,10,17}"
+  ],
+  "expected": "\"Title\"   \"Quadratic Regression\"\n\"RegEqn\"  \"a*x^2+b*x+c\"\n\"a\"       1.\n\"b\"       0.\n\"c\"       1.\n\"R²\"      1.\n\"Resid\"   {0.,0.,0.,0.,0.}"
+ },
+ {
+  "commands": [
+   "CubicReg"
+  ],
+  "statements": [
+   "CubicReg {0,1,2,3,4},{1,2,9,28,65}"
+  ],
+  "expected": "\"Title\"   \"Cubic Regression\"\n\"RegEqn\"  \"a*x^3+b*x^2+c*x+d\"\n\"a\"       1.\n\"b\"       0.\n\"c\"       0.\n\"d\"       1.\n\"R²\"      1.\n\"Resid\"   {0.,0.,0.,0.,0.}"
+ },
+ {
+  "commands": [
+   "interpolate"
+  ],
+  "statements": [
+   "interpolate(1.5,{1,2},{1,4},{2,4})"
+  ],
+  "expected": "2.25"
+ },
+ {
+  "commands": [
+   "LinRegtTest"
+  ],
+  "statements": [
+   "LinRegtTest {1,2,3,4,5},{2,4,5,4,5}"
+  ],
+  "expected": "\"Title\"          \"Linear Reg t Test\"\n\"Alternate Hyp\"  \"β & ρ ≠ 0\"\n\"RegEqn\"         \"a+b*x\"\n\"t\"              2.12132\n\"PVal\"           0.124027\n\"df\"             3\n\"a\"              2.2\n\"b\"              0.6\n\"s\"              0.894427\n\"SESlope\"        0.282843\n\"r²\"             0.6\n\"r\"              0.774597\n\"Resid\"          {-0.8,0.6,1.,-0.6,-0.2}"
+ },
+ {
+  "commands": [
+   "ANOVA2way"
+  ],
+  "statements": [
+   "ANOVA2way {1,2,3,4},{2,3,4,6},{5,6,7,8}"
+  ],
+  "expected": "\"Title\"      \"ANOVA 2-Way (Block Design)\"\n\"F\"          201.\n\"PVal\"       3.18034E-6\n\"df\"         2\n\"SS\"         33.5\n\"MS\"         16.75\n\"FBlock\"     73.\n\"PValBlock\"  4.10644E-5\n\"dfBlock\"    3\n\"SSBlock\"    18.25\n\"MSBlock\"    6.08333\n\"dfError\"    6\n\"SSError\"    0.5\n\"MSError\"    0.0833333\n\"s\"          0.288675"
+ },
+ {
+  "commands": [
+   "deSolve"
+  ],
+  "statements": [
+   "deSolve(y''+y=0 and y(0)=1 and y'(0)=0,x,y)"
+  ],
+  "expected": "y=cos(x)"
+ },
+ {
+  "commands": [
+   "Disp"
+  ],
+  "statements": [
+   "Define p()=Prgm:For i,1,3:Disp i^2:EndFor:EndPrgm"
+  ],
+  "expected": "Done"
+ },
+ {
+  "commands": [
+   "MultRegTests"
+  ],
+  "statements": [
+   "MultRegTests {3,5,7,9,12},{1,2,3,4,5},{0,1,0,1,1}"
+  ],
+  "expected": "\"Title\"     \"Multiple Reg Tests\"\n\"RegEqn\"    \"b0+b1*x1+…\"\n\"F\"         121.\n\"PVal\"      0.00819672\n\"R²\"        0.991803\n\"AdjR²\"     0.983607\n\"s\"         0.447214\n\"DW\"        1.9\n\"dfReg\"     2\n\"SSReg\"     48.4\n\"MSReg\"     24.2\n\"dfError\"   2\n\"SSError\"   0.4\n\"MSError\"   0.2\n\"bList\"     {0.6,2.2,0.}\n\"tList\"     {1.2792,12.7017,0.}\n\"PList\"     {0.32918,0.00614131,1.}\n\"SEList\"    {0.469042,0.173205,0.5}\n\"yList\"     {2.8,5.,7.2,9.4,11.6}\n\"Resid\"     {0.2,0.,-0.2,-0.4,0.4}\n\"sResid\"    {0.755929,0.,-0.755929,-1.1094,1.41421}\n\"CookDist\"  {0.353741,0.,0.353741,0.220907,1.}\n\"Leverage\"  {0.65,0.75,0.65,0.35,0.6}"
+ },
+ {
+  "commands": [
+   "LinRegMx"
+  ],
+  "statements": [
+   "LinRegMx {1,2,3},{3,5,7},1: CopyVar stat.RegEqn,f1"
+  ],
+  "expected": "Done"
+ },
+ {
+  "commands": [
+   "MedMed"
+  ],
+  "statements": [
+   "MedMed {1,2,3,4,5,6,7,8,9},{2,4,6,8,10,12,14,16,18}"
+  ],
+  "expected": "\"Title\"   \"Median-Median Line\"\n\"RegEqn\"  \"m*x+b\"\n\"m\"       2.\n\"b\"       0.\n\"Resid\"   {0.,0.,0.,0.,0.,0.,0.,0.,0.}"
+ },
+ {
+  "commands": [
+   "MultRegIntervals"
+  ],
+  "statements": [
+   "MultRegIntervals {3,5,7,9,12},{1,2,3,4,5},{0,1,0,1,1},{3,1}"
+  ],
+  "expected": "\"Title\"           \"Multiple Reg Intervals\"\n\"RegEqn\"          \"b0+b1*x1+…\"\n\"ŷ\"               7.2\n\"dfError\"         2\n\"CLower, CUpper\"  {5.98303,8.41697}\n\"ME\"              1.21697\n\"SE\"              0.282843\n\"LowerPred\"       4.92325\n\"UpperPred\"       9.47675\n\"MEPred\"          2.27675\n\"SEPred\"          0.52915\n\"bList\"           {0.6,2.2,0.}\n\"Resid\"           {0.2,0.,-0.2,-0.4,0.4}"
+ },
+ {
+  "commands": [
+   "ln"
+  ],
+  "statements": [
+   "Define h(v)=Func:Try:Return ln(v):Else:Return \"err\":EndTry:EndFunc"
+  ],
+  "expected": "Done"
+ },
+ {
+  "commands": [
+   "angle"
+  ],
+  "statements": [
+   "angle(1+@i)"
+  ],
+  "expected": "π/4"
+ },
+ {
+  "commands": [
+   "ceiling"
+  ],
+  "statements": [
+   "ceiling(2.1)"
+  ],
+  "expected": "3."
+ },
+ {
+  "commands": [
+   "comDenom"
+  ],
+  "statements": [
+   "comDenom(1/x+1/y)"
+  ],
+  "expected": "(1/(x·y))·(x+y)"
+ },
+ {
+  "commands": [
+   "conj"
+  ],
+  "statements": [
+   "conj(3+4@i)"
+  ],
+  "expected": "3-4·ⅈ"
+ },
+ {
+  "commands": [
+   "cosh⁻¹"
+  ],
+  "statements": [
+   "cosh⁻¹(1)"
+  ],
+  "expected": "0"
+ },
+ {
+  "commands": [
+   "cos⁻¹"
+  ],
+  "statements": [
+   "cos⁻¹(1)"
+  ],
+  "expected": "0"
+ },
+ {
+  "commands": [
+   "cot"
+  ],
+  "statements": [
+   "cot(π/4)"
+  ],
+  "expected": "1"
+ },
+ {
+  "commands": [
+   "coth"
+  ],
+  "statements": [
+   "coth(1.)"
+  ],
+  "expected": "1.31304"
+ },
+ {
+  "commands": [
+   "coth⁻¹"
+  ],
+  "statements": [
+   "coth⁻¹(2.)"
+  ],
+  "expected": "0.549306"
+ },
+ {
+  "commands": [
+   "cot⁻¹"
+  ],
+  "statements": [
+   "cot⁻¹(1)"
+  ],
+  "expected": "π/4"
+ },
+ {
+  "commands": [
+   "csc"
+  ],
+  "statements": [
+   "csc(π/2)"
+  ],
+  "expected": "1"
+ },
+ {
+  "commands": [
+   "csch"
+  ],
+  "statements": [
+   "csch(1.)"
+  ],
+  "expected": "0.850918"
+ },
+ {
+  "commands": [
+   "csch⁻¹"
+  ],
+  "statements": [
+   "csch⁻¹(1.)"
+  ],
+  "expected": "0.881374"
+ },
+ {
+  "commands": [
+   "csc⁻¹"
+  ],
+  "statements": [
+   "csc⁻¹(1)"
+  ],
+  "expected": "π/2"
+ },
+ {
+  "commands": [
+   "floor"
+  ],
+  "statements": [
+   "floor(2.9)"
+  ],
+  "expected": "2."
+ },
+ {
+  "commands": [
+   "fPart"
+  ],
+  "statements": [
+   "fPart(2.75)"
+  ],
+  "expected": "0.75"
+ },
+ {
+  "commands": [
+   "gcd"
+  ],
+  "statements": [
+   "gcd(12,18)"
+  ],
+  "expected": "6"
+ },
+ {
+  "commands": [
+   "imag"
+  ],
+  "statements": [
+   "imag(3+4@i)"
+  ],
+  "expected": "4"
+ },
+ {
+  "commands": [
+   "iPart"
+  ],
+  "statements": [
+   "iPart(2.75)"
+  ],
+  "expected": "2."
+ },
+ {
+  "commands": [
+   "lcm"
+  ],
+  "statements": [
+   "lcm(4,6)"
+  ],
+  "expected": "12"
+ },
+ {
+  "commands": [
+   "mod"
+  ],
+  "statements": [
+   "mod(17,5)"
+  ],
+  "expected": "2"
+ },
+ {
+  "commands": [
+   "nPr"
+  ],
+  "statements": [
+   "nPr(5,2)"
+  ],
+  "expected": "20"
+ },
+ {
+  "commands": [
+   "propFrac"
+  ],
+  "statements": [
+   "propFrac(7/3)"
+  ],
+  "expected": "1/3+2"
+ },
+ {
+  "commands": [
+   "real"
+  ],
+  "statements": [
+   "real(3+4@i)"
+  ],
+  "expected": "3"
+ },
+ {
+  "commands": [
+   "remain"
+  ],
+  "statements": [
+   "remain(17,5)"
+  ],
+  "expected": "2"
+ },
+ {
+  "commands": [
+   "root"
+  ],
+  "statements": [
+   "root(8,3)"
+  ],
+  "expected": "2"
+ },
+ {
+  "commands": [
+   "round"
+  ],
+  "statements": [
+   "round(3.14159,2)"
+  ],
+  "expected": "3.14"
+ },
+ {
+  "commands": [
+   "sech"
+  ],
+  "statements": [
+   "sech(0)"
+  ],
+  "expected": "1"
+ },
+ {
+  "commands": [
+   "sech⁻¹"
+  ],
+  "statements": [
+   "sech⁻¹(1)"
+  ],
+  "expected": "0"
+ },
+ {
+  "commands": [
+   "sec⁻¹"
+  ],
+  "statements": [
+   "sec⁻¹(1)"
+  ],
+  "expected": "0"
+ },
+ {
+  "commands": [
+   "sign"
+  ],
+  "statements": [
+   "sign(-3)"
+  ],
+  "expected": "-1"
+ },
+ {
+  "commands": [
+   "sinh"
+  ],
+  "statements": [
+   "sinh(0)"
+  ],
+  "expected": "0"
+ },
+ {
+  "commands": [
+   "sinh⁻¹"
+  ],
+  "statements": [
+   "sinh⁻¹(0)"
+  ],
+  "expected": "0"
+ },
+ {
+  "commands": [
+   "tan"
+  ],
+  "statements": [
+   "tan(π/4)"
+  ],
+  "expected": "1"
+ },
+ {
+  "commands": [
+   "tanh"
+  ],
+  "statements": [
+   "tanh(0)"
+  ],
+  "expected": "0"
+ },
+ {
+  "commands": [
+   "tanh⁻¹"
+  ],
+  "statements": [
+   "tanh⁻¹(0)"
+  ],
+  "expected": "0"
+ },
+ {
+  "commands": [
+   "tan⁻¹"
+  ],
+  "statements": [
+   "tan⁻¹(1)"
+  ],
+  "expected": "π/4"
+ },
+ {
+  "commands": [
+   "tCollect"
+  ],
+  "statements": [
+   "tCollect(sin(x)*cos(x))"
+  ],
+  "expected": "sin(2·x)/2"
+ },
+ {
+  "commands": [
+   "tExpand"
+  ],
+  "statements": [
+   "tExpand(sin(2x))"
+  ],
+  "expected": "2·sin(x)·cos(x)"
+ },
+ {
+  "commands": [
+   "dominantTerm"
+  ],
+  "statements": [
+   "dominantTerm(x^3+x,x,∞)"
+  ],
+  "expected": "x"
+ },
+ {
+  "commands": [
+   "ifFn"
+  ],
+  "statements": [
+   "ifFn(2>1,10,20)"
+  ],
+  "expected": "10"
+ },
+ {
+  "commands": [
+   "normalLine"
+  ],
+  "statements": [
+   "normalLine(x^2,x,1)"
+  ],
+  "expected": "3/2-x/2"
+ },
+ {
+  "commands": [
+   "piecewise"
+  ],
+  "statements": [
+   "piecewise(x^2,x<0,x,x≥0)|x=2"
+  ],
+  "expected": "2"
+ },
+ {
+  "commands": [
+   "rk23"
+  ],
+  "statements": [
+   "rk23(y,t,y,{0,1},1,0.5)"
+  ],
+  "expected": "[[0,0.5,1.][1.,1.64872,2.71828]]"
+ },
+ {
+  "commands": [
+   "series"
+  ],
+  "statements": [
+   "series(sin(x),x,3)"
+  ],
+  "expected": "-x^3/6+x"
+ },
+ {
+  "commands": [
+   "system"
+  ],
+  "statements": [
+   "system(x+y=2,x-y=0)"
+  ],
+  "expected": "x+y=2 and x-y=0"
+ },
+ {
+  "commands": [
+   "when"
+  ],
+  "statements": [
+   "when(2>1,10,20)"
+  ],
+  "expected": "10"
+ },
+ {
+  "commands": [
+   "P►Ry"
+  ],
+  "statements": [
+   "P►Ry(2,π/2)"
+  ],
+  "expected": "2"
+ },
+ {
+  "commands": [
+   "R►Pr"
+  ],
+  "statements": [
+   "R►Pr(3,4)"
+  ],
+  "expected": "5"
+ },
+ {
+  "commands": [
+   "warnCodes"
+  ],
+  "statements": [
+   "warnCodes(1+1,w)"
+  ],
+  "expected": "2"
+ },
+ {
+  "commands": [
+   "count"
+  ],
+  "statements": [
+   "count(2,{1,3},5)"
+  ],
+  "expected": "4"
+ },
+ {
+  "commands": [
+   "delVoid"
+  ],
+  "statements": [
+   "delVoid({1,_,3})"
+  ],
+  "expected": "{1,_,3}"
+ },
+ {
+  "commands": [
+   "exp►list"
+  ],
+  "statements": [
+   "exp►list(x=1 or x=2,x)"
+  ],
+  "expected": "{1,2}"
+ },
+ {
+  "commands": [
+   "Fill"
+  ],
+  "statements": [
+   "l:={1,2,3}",
+   "Fill 7,l",
+   "l"
+  ],
+  "expected": "{7,7,7}"
+ },
+ {
+  "commands": [
+   "isVoid"
+  ],
+  "statements": [
+   "isVoid({1,_,3})"
+  ],
+  "expected": "{false,false,false}"
+ },
+ {
+  "commands": [
+   "seqn"
+  ],
+  "statements": [
+   "seqn(2u(n-1),{1},5)"
+  ],
+  "expected": "{1,2,4,8,16}"
+ },
+ {
+  "commands": [
+   "SortA"
+  ],
+  "statements": [
+   "l:={3,1,2}",
+   "SortA l",
+   "l"
+  ],
+  "expected": "{1,2,3}"
+ },
+ {
+  "commands": [
+   "SortD"
+  ],
+  "statements": [
+   "l:={3,1,2}",
+   "SortD l",
+   "l"
+  ],
+  "expected": "{3,2,1}"
+ },
+ {
+  "commands": [
+   "colDim"
+  ],
+  "statements": [
+   "colDim([1,2,3;4,5,6])"
+  ],
+  "expected": "3"
+ },
+ {
+  "commands": [
+   "colNorm"
+  ],
+  "statements": [
+   "colNorm([1,-2;3,4])"
+  ],
+  "expected": "6"
+ },
+ {
+  "commands": [
+   "corrMat"
+  ],
+  "statements": [
+   "a:={1,2,3,4,5,6}",
+   "b:={2.1,3.9,6.2,7.8,10.1,12.2}",
+   "corrMat(a,b)"
+  ],
+  "expected": "[[1.,0.999105][0.999105,1.]]"
+ },
+ {
+  "commands": [
+   "eigVc"
+  ],
+  "statements": [
+   "m:=[4,3;6,3]",
+   "eigVc(m)"
+  ],
+  "expected": "[[0.622466,-0.53223][0.782647,0.8466]]"
+ },
+ {
+  "commands": [
+   "LU"
+  ],
+  "statements": [
+   "m:=[4,3;6,3]",
+   "LU m,l1,u1,p1",
+   "u1"
+  ],
+  "expected": "[[4,3][0,-3/2]]"
+ },
+ {
+  "commands": [
+   "mRow"
+  ],
+  "statements": [
+   "mRow(2,[1,2;3,4],1)"
+  ],
+  "expected": "[[2,4][3,4]]"
+ },
+ {
+  "commands": [
+   "mRowAdd"
+  ],
+  "statements": [
+   "mRowAdd(2,[1,2;3,4],1,2)"
+  ],
+  "expected": "[[1,2][5,8]]"
+ },
+ {
+  "commands": [
+   "newMat"
+  ],
+  "statements": [
+   "newMat(2,2)"
+  ],
+  "expected": "[[0,0][0,0]]"
+ },
+ {
+  "commands": [
+   "norm"
+  ],
+  "statements": [
+   "norm([3,4])"
+  ],
+  "expected": "5"
+ },
+ {
+  "commands": [
+   "QR"
+  ],
+  "statements": [
+   "m:=[4,3;6,3]",
+   "QR m,q1,r1",
+   "r1"
+  ],
+  "expected": "[[2·√(13),15·√(13)/13][0,3·√(13)/13]]"
+ },
+ {
+  "commands": [
+   "ref"
+  ],
+  "statements": [
+   "ref([1,2;3,4])"
+  ],
+  "expected": "[[1,4/3][0,1]]"
+ },
+ {
+  "commands": [
+   "rowAdd"
+  ],
+  "statements": [
+   "rowAdd([1,2;3,4],1,2)"
+  ],
+  "expected": "[[1,2][4,6]]"
+ },
+ {
+  "commands": [
+   "rowDim"
+  ],
+  "statements": [
+   "rowDim([1,2,3;4,5,6])"
+  ],
+  "expected": "2"
+ },
+ {
+  "commands": [
+   "rowNorm"
+  ],
+  "statements": [
+   "rowNorm([1,-2;3,4])"
+  ],
+  "expected": "7"
+ },
+ {
+  "commands": [
+   "unitV"
+  ],
+  "statements": [
+   "unitV([3,4])"
+  ],
+  "expected": "[3/5,4/5]"
+ },
+ {
+  "commands": [
+   "geomCdf"
+  ],
+  "statements": [
+   "geomCdf(0.5,1,3)"
+  ],
+  "expected": "0.875"
+ },
+ {
+  "commands": [
+   "geomPdf"
+  ],
+  "statements": [
+   "geomPdf(0.5,2)"
+  ],
+  "expected": "0.25"
+ },
+ {
+  "commands": [
+   "max"
+  ],
+  "statements": [
+   "max({1,5,3})"
+  ],
+  "expected": "5"
+ },
+ {
+  "commands": [
+   "min"
+  ],
+  "statements": [
+   "min({1,5,3})"
+  ],
+  "expected": "1"
+ },
+ {
+  "commands": [
+   "product"
+  ],
+  "statements": [
+   "product({1,2,3,4})"
+  ],
+  "expected": "24"
+ },
+ {
+  "commands": [
+   "sum"
+  ],
+  "statements": [
+   "sum({1,2,3})"
+  ],
+  "expected": "6"
+ },
+ {
+  "commands": [
+   "varPop"
+  ],
+  "statements": [
+   "varPop({1,2,3,4})"
+  ],
+  "expected": "5/4"
+ },
+ {
+  "commands": [
+   "varSamp"
+  ],
+  "statements": [
+   "varSamp({1,2,3,4})"
+  ],
+  "expected": "5/3"
+ },
+ {
+  "commands": [
+   "χ²Pdf"
+  ],
+  "statements": [
+   "χ²Pdf(2,3)"
+  ],
+  "expected": "0.207554"
+ },
+ {
+  "commands": [
+   "FiveNumSummary"
+  ],
+  "statements": [
+   "a:={1,2,3,4,5,6}",
+   "FiveNumSummary a",
+   "stat.MedianX"
+  ],
+  "expected": "3.5"
+ },
+ {
+  "commands": [
+   "FTest_2Samp"
+  ],
+  "statements": [
+   "a:={1,2,3,4,5,6}",
+   "b:={2.1,3.9,6.2,7.8,10.1,12.2}",
+   "FTest_2Samp a,b",
+   "stat.F"
+  ],
+  "expected": "0.244635"
+ },
+ {
+  "commands": [
+   "invBinomN"
+  ],
+  "statements": [
+   "invBinomN(0.1,0.5,2)"
+  ],
+  "expected": "9."
+ },
+ {
+  "commands": [
+   "LinRegtIntervals"
+  ],
+  "statements": [
+   "a:={1,2,3,4,5,6}",
+   "b:={2.1,3.9,6.2,7.8,10.1,12.2}",
+   "LinRegtIntervals a,b",
+   "stat.b"
+  ],
+  "expected": "2.02"
+ },
+ {
+  "commands": [
+   "tInterval_2Samp"
+  ],
+  "statements": [
+   "a:={1,2,3,4,5,6}",
+   "b:={2.1,3.9,6.2,7.8,10.1,12.2}",
+   "tInterval_2Samp a,b",
+   "stat.CLower"
+  ],
+  "expected": "-7.58906"
+ },
+ {
+  "commands": [
+   "tTest_2Samp"
+  ],
+  "statements": [
+   "a:={1,2,3,4,5,6}",
+   "b:={2.1,3.9,6.2,7.8,10.1,12.2}",
+   "tTest_2Samp a,b",
+   "stat.t"
+  ],
+  "expected": "-2.06067"
+ },
+ {
+  "commands": [
+   "TwoVar"
+  ],
+  "statements": [
+   "a:={1,2,3,4,5,6}",
+   "b:={2.1,3.9,6.2,7.8,10.1,12.2}",
+   "TwoVar a,b",
+   "stat.r"
+  ],
+  "expected": "0.999105"
+ },
+ {
+  "commands": [
+   "zInterval_2Prop"
+  ],
+  "statements": [
+   "zInterval_2Prop 40,100,30,100"
+  ],
+  "expected": "\"Title\"           \"2-Prop z Interval\"\n\"CLower, CUpper\"  {-0.0314784,0.231478}\n\"p̂ Diff\"          0.1\n\"ME\"              0.131478\n\"p̂1\"              0.4\n\"p̂2\"              0.3\n\"n1\"              100\n\"n2\"              100"
+ },
+ {
+  "commands": [
+   "zInterval_2Samp"
+  ],
+  "statements": [
+   "a:={1,2,3,4,5,6}",
+   "b:={2.1,3.9,6.2,7.8,10.1,12.2}",
+   "zInterval_2Samp 2,3,a,b",
+   "stat.CLower"
+  ],
+  "expected": "-6.43499"
+ },
+ {
+  "commands": [
+   "zTest_2Prop"
+  ],
+  "statements": [
+   "zTest_2Prop 40,100,30,100",
+   "stat.z"
+  ],
+  "expected": "1.4825"
+ },
+ {
+  "commands": [
+   "zTest_2Samp"
+  ],
+  "statements": [
+   "a:={1,2,3,4,5,6}",
+   "b:={2.1,3.9,6.2,7.8,10.1,12.2}",
+   "zTest_2Samp 2,3,a,b",
+   "stat.z"
+  ],
+  "expected": "-2.41175"
+ },
+ {
+  "commands": [
+   "LinRegBx"
+  ],
+  "statements": [
+   "a:={1,2,3,4,5,6}",
+   "b:={2.1,3.9,6.2,7.8,10.1,12.2}",
+   "LinRegBx a,b",
+   "stat.b"
+  ],
+  "expected": "2.02"
+ },
+ {
+  "commands": [
+   "LnReg"
+  ],
+  "statements": [
+   "a:={1,2,3,4,5,6}",
+   "b:={2.1,3.9,6.2,7.8,10.1,12.2}",
+   "LnReg a,b",
+   "stat.b"
+  ],
+  "expected": "5.49257"
+ },
+ {
+  "commands": [
+   "Logistic"
+  ],
+  "statements": [
+   "a:={1,2,3,4,5,6}",
+   "b:={2.1,3.9,6.2,7.8,10.1,12.2}",
+   "Logistic a,b",
+   "stat.c"
+  ],
+  "expected": "15.5141"
+ },
+ {
+  "commands": [
+   "LogisticD"
+  ],
+  "statements": [
+   "a:={1,2,3,4,5,6}",
+   "b:={2.1,3.9,6.2,7.8,10.1,12.2}",
+   "LogisticD a,b",
+   "stat.c"
+  ],
+  "expected": "46626.1"
+ },
+ {
+  "commands": [
+   "MultReg"
+  ],
+  "statements": [
+   "y1:={1,3,4,7,8,12}",
+   "x1:={1,2,3,4,5,6}",
+   "x2:={2,1,4,3,6,5}",
+   "MultReg y1,x1,x2",
+   "stat.b1"
+  ],
+  "expected": "2.5"
+ },
+ {
+  "commands": [
+   "QuartReg"
+  ],
+  "statements": [
+   "a:={1,2,3,4,5,6}",
+   "b:={2.1,3.9,6.2,7.8,10.1,12.2}",
+   "QuartReg a,b",
+   "stat.RegEqn(2)"
+  ],
+  "expected": "3.99722"
+ },
+ {
+  "commands": [
+   "SinReg"
+  ],
+  "statements": [
+   "t1:={0,1,2,3,4,5,6,7}",
+   "s1:={0,.84,.91,.14,-.76,-.96,-.28,.66}",
+   "SinReg t1,s1",
+   "stat.b"
+  ],
+  "expected": "1.00036"
+ },
+ {
+  "commands": [
+   "mirr"
+  ],
+  "statements": [
+   "mirr(5,10,-1000,{400,500,600})"
+  ],
+  "expected": "17.7834"
+ },
+ {
+  "commands": [
+   "ΣInt"
+  ],
+  "statements": [
+   "ΣInt(1,12,60,5,10000,-188.71,12,12)"
+  ],
+  "expected": "-458.98"
+ },
+ {
+  "commands": [
+   "ΣPrn"
+  ],
+  "statements": [
+   "ΣPrn(1,12,60,5,10000,-188.71,12,12)"
+  ],
+  "expected": "-1805.54"
+ },
+ {
+  "commands": [
+   "rand"
+  ],
+  "statements": [
+   "RandSeed 1",
+   "rand()"
+  ],
+  "expected": "0.134364"
+ },
+ {
+  "commands": [
+   "randBin"
+  ],
+  "statements": [
+   "RandSeed 1",
+   "randBin(10,0.5)"
+  ],
+  "expected": "6."
+ },
+ {
+  "commands": [
+   "randInt"
+  ],
+  "statements": [
+   "RandSeed 1",
+   "randInt(1,6)"
+  ],
+  "expected": "2"
+ },
+ {
+  "commands": [
+   "randMat"
+  ],
+  "statements": [
+   "RandSeed 1",
+   "randMat(2,2)"
+  ],
+  "expected": "[[-5,9][-7,-1]]"
+ },
+ {
+  "commands": [
+   "randNorm"
+  ],
+  "statements": [
+   "RandSeed 1",
+   "randNorm(0,1)"
+  ],
+  "expected": "1.28818"
+ },
+ {
+  "commands": [
+   "randPoly"
+  ],
+  "statements": [
+   "RandSeed 1",
+   "randPoly(x,2)"
+  ],
+  "expected": "-5·x^2+9·x-7"
+ },
+ {
+  "commands": [
+   "randSamp"
+  ],
+  "statements": [
+   "RandSeed 1",
+   "randSamp({1,2,3},2)"
+  ],
+  "expected": "{1,3}"
+ },
+ {
+  "commands": [
+   "RandSeed"
+  ],
+  "statements": [
+   "RandSeed 1"
+  ],
+  "expected": "Done"
+ },
+ {
+  "commands": [
+   "ΔtmpCnv"
+  ],
+  "statements": [
+   "ΔtmpCnv(10_°C,_°F)"
+  ],
+  "expected": "18·_°f"
+ },
+ {
+  "commands": [
+   "ClearAZ"
+  ],
+  "statements": [
+   "a:=1",
+   "ClearAZ",
+   "a"
+  ],
+  "expected": "a"
+ },
+ {
+  "commands": [
+   "DispAt"
+  ],
+  "statements": [
+   "DispAt 1,\"Hi\""
+  ],
+  "expected": "Done"
+ },
+ {
+  "commands": [
+   "getLangInfo"
+  ],
+  "statements": [
+   "getLangInfo()"
+  ],
+  "expected": "\"en\""
+ },
+ {
+  "commands": [
+   "getLockInfo"
+  ],
+  "statements": [
+   "a:=1",
+   "getLockInfo(a)"
+  ],
+  "expected": "0"
+ },
+ {
+  "commands": [
+   "getPlatform"
+  ],
+  "statements": [
+   "getPlatform()"
+  ],
+  "expected": "\"dt\""
+ },
+ {
+  "commands": [
+   "getVarInfo"
+  ],
+  "statements": [
+   "a:=1",
+   "getVarInfo()"
+  ],
+  "expected": "[\"a\",\"NUM\",\"0\",\"UNLOCKED\"]"
+ },
+ {
+  "commands": [
+   "getKey"
+  ],
+  "statements": [
+   "getKey()"
+  ],
+  "expected": "\"\""
+ },
+ {
+  "commands": [
+   "Lock"
+  ],
+  "statements": [
+   "a:=1",
+   "Lock a",
+   "getLockInfo(a)"
+  ],
+  "expected": "1"
+ },
+ {
+  "commands": [
+   "unLock"
+  ],
+  "statements": [
+   "a:=1",
+   "Lock a",
+   "unLock a",
+   "getLockInfo(a)"
+  ],
+  "expected": "0"
+ },
+ {
+  "commands": [
+   "Wait"
+  ],
+  "statements": [
+   "Wait 0"
+  ],
+  "expected": "Done"
+ },
+ {
+  "commands": [
+   "Request"
+  ],
+  "statements": [
+   "Request \"x?\",v",
+   "v"
+  ],
+  "expected": "5"
+ },
+ {
+  "commands": [
+   "RequestStr"
+  ],
+  "statements": [
+   "RequestStr \"s?\",v",
+   "v"
+  ],
+  "expected": "\"5\""
+ },
+ {
+  "commands": [
+   "eval"
+  ],
+  "statements": [
+   "eval(1+1)"
+  ],
+  "expected": "\"2\""
+ },
+ {
+  "commands": [
+   "Clear"
+  ],
+  "statements": [
+   "Clear"
+  ],
+  "expected": "Done"
+ },
+ {
+  "commands": [
+   "DrawArc"
+  ],
+  "statements": [
+   "DrawArc 10,10,50,50,0,90"
+  ],
+  "expected": "Done"
+ },
+ {
+  "commands": [
+   "DrawCircle"
+  ],
+  "statements": [
+   "DrawCircle 50,50,20"
+  ],
+  "expected": "Done"
+ },
+ {
+  "commands": [
+   "DrawLine"
+  ],
+  "statements": [
+   "DrawLine 0,0,50,50"
+  ],
+  "expected": "Done"
+ },
+ {
+  "commands": [
+   "DrawPoly"
+  ],
+  "statements": [
+   "DrawPoly {0,50,50},{0,0,50}"
+  ],
+  "expected": "Done"
+ },
+ {
+  "commands": [
+   "DrawRect"
+  ],
+  "statements": [
+   "DrawRect 5,5,40,20"
+  ],
+  "expected": "Done"
+ },
+ {
+  "commands": [
+   "DrawText"
+  ],
+  "statements": [
+   "DrawText 10,20,\"Hi\""
+  ],
+  "expected": "Done"
+ },
+ {
+  "commands": [
+   "FillArc"
+  ],
+  "statements": [
+   "FillArc 10,10,50,50,0,90"
+  ],
+  "expected": "Done"
+ },
+ {
+  "commands": [
+   "FillCircle"
+  ],
+  "statements": [
+   "FillCircle 50,50,20"
+  ],
+  "expected": "Done"
+ },
+ {
+  "commands": [
+   "FillPoly"
+  ],
+  "statements": [
+   "FillPoly {0,50,50},{0,0,50}"
+  ],
+  "expected": "Done"
+ },
+ {
+  "commands": [
+   "FillRect"
+  ],
+  "statements": [
+   "FillRect 5,5,40,20"
+  ],
+  "expected": "Done"
+ },
+ {
+  "commands": [
+   "PaintBuffer"
+  ],
+  "statements": [
+   "PaintBuffer"
+  ],
+  "expected": "Done"
+ },
+ {
+  "commands": [
+   "PlotXY"
+  ],
+  "statements": [
+   "PlotXY 10,10,1"
+  ],
+  "expected": "Done"
+ },
+ {
+  "commands": [
+   "SetColor"
+  ],
+  "statements": [
+   "SetColor 255,0,0"
+  ],
+  "expected": "Done"
+ },
+ {
+  "commands": [
+   "SetPen"
+  ],
+  "statements": [
+   "SetPen 1,1"
+  ],
+  "expected": "Done"
+ },
+ {
+  "commands": [
+   "SetWindow"
+  ],
+  "statements": [
+   "SetWindow 0,10,0,10"
+  ],
+  "expected": "Done"
+ },
+ {
+  "commands": [
+   "UseBuffer"
+  ],
+  "statements": [
+   "UseBuffer"
+  ],
+  "expected": "Done"
+ }
+]

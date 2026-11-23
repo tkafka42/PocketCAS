@@ -1,0 +1,27 @@
+[project]
+name = "pocketcas-server"
+version = "0.1.0"
+description = "REST-Server von PocketCAS"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "alembic>=1.20",
+    "fastapi>=0.165",
+    "numpy>=2.0",
+    "pillow>=11",
+    "psycopg[binary]>=3.2",
+    "pydantic-settings>=2.6",
+    "scipy>=1.14",
+    "sqlalchemy>=2.1",
+    "sympy>=1.14",
+    "uvicorn[standard]>=0.32",
+]
+
+[dependency-groups]
+dev = ["httpx>=0.28", "pytest>=8"]
+
+[tool.uv]
+package = false
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

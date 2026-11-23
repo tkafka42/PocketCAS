@@ -1,0 +1,36 @@
+services:
+  db:
+    image: postgres:18-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: pocketcas
+      POSTGRES_USER: pocketcas
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?POSTGRES_PASSWORD fehlt in .env}
+    volumes:
+      - db-data:/var/lib/postgresql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U pocketcas -d pocketcas"]
+      interval: 5s
+      timeout: 3s
+      retries: 12
+
+  api:
+    build: ./server
+    restart: unless-stopped
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      DATABASE_URL: postgresql+psycopg://pocketcas:${POSTGRES_PASSWORD}@db:5432/pocketcas
+      APP_PASSWORD: ${APP_PASSWORD:?APP_PASSWORD fehlt in .env}
+      AUTH_SECRET: ${AUTH_SECRET:?AUTH_SECRET fehlt in .env}
+      COOKIE_SECURE: ${COOKIE_SECURE:-true}
+      UPLOAD_DIR: /srv/server/uploads
+    volumes:
+      - uploads:/srv/server/uploads
+    ports:
+      - "127.0.0.1:8000:8000"
+
+volumes:
+  db-data:
+  uploads:
